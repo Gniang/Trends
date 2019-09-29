@@ -136,6 +136,12 @@ header:hover #menubar li a:hover {
 	background-color: #4cc798;	/*背景色*/
 	color: #fff;				/*文字色*/
 }
+
+
+/*マウスオン時*/
+.friends__header{
+	background: rgba(71, 71, 71, 0.533);	/*背景色*/
+}
 /*現在表示中メニュー（current）*/
 #menubar li.current a {
 	background-color: rgba(190, 182, 68, 0.5);	/*背景色68,141,179は、リンクカラーをrgb値にしたもの。0.5は色が50%出た状態。*/
@@ -158,6 +164,7 @@ header:hover #menubar li a span {
 	background-repeat: no-repeat;
 	background-size: 60px 300px;	/*実際のアイコン画像（icon.png）全体の大きさの幅、高さのそれぞれ「半分」。解像度を高くするため半分の数字にしています。*/
 }
+
 /*menu1*/
 .menu1 a {
 	background-position: 20px 20px;		/*背景画像の左から20px、上から20pxの部分を読み込む指定*/
